@@ -1,6 +1,5 @@
 import * as admin from "firebase-admin";
-import * as dotenv from "dotenv";
-dotenv.config();
+
 const serviceAccount = JSON.parse(process.env.KEY);
 
 admin.initializeApp({
