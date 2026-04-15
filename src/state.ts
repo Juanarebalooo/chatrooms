@@ -1,6 +1,6 @@
 import { rtdbCl } from "../rtdb";
 
-const API_BASE_URL = "http://localhost:3000";
+const API_BASE_URL = "https://chatrooms-y1r5.onrender.com";
 const state = {
   data: {
     email: "",
