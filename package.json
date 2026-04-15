@@ -1,0 +1,43 @@
+{
+  "name": "chatrooms",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/uuid": "^11.0.0",
+    "@vaadin/router": "^2.0.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase": "^12.11.0",
+    "firebase-admin": "^13.7.0",
+    "lodash": "^4.18.1",
+    "nanoid": "^5.1.7",
+    "nodemon": "^3.1.14",
+    "parcel": "^2.16.4",
+    "uuid": "^13.0.0"
+  },
+  "scripts": {
+    "dev:front": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "dev": "nodemon --watch './endpoints.ts' --ext 'ts,json' --exec 'tsx ./endpoints.ts'",
+    "start": "tsx ./endpoints.ts"
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^5.5.0||^6.0.0",
+    "crypto-browserify": "^3.12.1",
+    "events": "^3.3.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "vm-browserify": "^1.1.2"
+  }
+}
